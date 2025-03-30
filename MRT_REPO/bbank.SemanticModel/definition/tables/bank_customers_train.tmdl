@@ -1,0 +1,314 @@
+table bank_customers_train
+	lineageTag: 2c5a8a42-bd69-4a74-a6dc-7208e8c0cb2a
+
+	column age
+		dataType: int64
+		formatString: 0
+		lineageTag: 24c11635-ecfa-4e2b-9994-c93eeebf5c37
+		summarizeBy: sum
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"bank_customers_train","TableItemName":"age (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column job
+		dataType: string
+		lineageTag: 594ee0b5-203f-4401-9230-3fe4d394c98e
+		summarizeBy: none
+		sourceColumn: job
+
+		annotation SummarizationSetBy = Automatic
+
+	column marital
+		dataType: string
+		lineageTag: 0d0e1369-99d4-4763-b363-6acc20ee79ec
+		summarizeBy: none
+		sourceColumn: marital
+
+		annotation SummarizationSetBy = Automatic
+
+	column education
+		dataType: string
+		lineageTag: a6278dc1-89cb-4c57-8dfc-29b01367c6e2
+		summarizeBy: none
+		sourceColumn: education
+
+		annotation SummarizationSetBy = Automatic
+
+	column default
+		dataType: string
+		lineageTag: 26b2ef83-de73-4e17-9961-97486e07a20f
+		summarizeBy: none
+		sourceColumn: default
+
+		annotation SummarizationSetBy = Automatic
+
+	column housing
+		dataType: string
+		lineageTag: 716eef67-31de-45b6-9e2c-53fe160024d4
+		summarizeBy: none
+		sourceColumn: housing
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan
+		dataType: string
+		lineageTag: 4d278be5-7082-4a16-b46b-f4bf5f47634f
+		summarizeBy: none
+		sourceColumn: loan
+
+		annotation SummarizationSetBy = Automatic
+
+	column contact
+		dataType: string
+		lineageTag: 9eb166b1-1dcb-4159-8dda-3ce0c9c45207
+		summarizeBy: none
+		sourceColumn: contact
+
+		annotation SummarizationSetBy = Automatic
+
+	column month
+		dataType: string
+		lineageTag: 6b5c20b8-537f-43c9-821a-aa750a272348
+		summarizeBy: none
+		sourceColumn: month
+
+		annotation SummarizationSetBy = Automatic
+
+	column Day
+		dataType: string
+		lineageTag: 7a8e6ebc-6813-4149-b1dc-92fc90a24e3f
+		summarizeBy: none
+		sourceColumn: Day
+
+		annotation SummarizationSetBy = Automatic
+
+	column duration
+		dataType: int64
+		formatString: 0
+		lineageTag: 2a206d17-edfc-4624-9f42-642a94cf872b
+		summarizeBy: sum
+		sourceColumn: duration
+
+		annotation SummarizationSetBy = Automatic
+
+	column campaign
+		dataType: int64
+		formatString: 0
+		lineageTag: 33676e52-bd6b-4f99-b83c-860f4219d575
+		summarizeBy: sum
+		sourceColumn: campaign
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"bank_customers_train","TableItemName":"campaign (bins)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column pdays
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e5f7a49-baeb-45b9-bafd-a4f0db97a08d
+		summarizeBy: sum
+		sourceColumn: pdays
+
+		annotation SummarizationSetBy = Automatic
+
+	column previous
+		dataType: int64
+		formatString: 0
+		lineageTag: 1edadca7-3e75-4d37-a3ae-1e2d7d0ae4b3
+		summarizeBy: sum
+		sourceColumn: previous
+
+		annotation SummarizationSetBy = Automatic
+
+	column poutcome
+		dataType: string
+		lineageTag: 92fca5fc-f0c9-40ff-b958-28ff51fbd24e
+		summarizeBy: none
+		sourceColumn: poutcome
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'emp.var.rate'
+		dataType: double
+		lineageTag: 5fc6b0d9-9166-43b4-a1e6-0808d60d737c
+		summarizeBy: sum
+		sourceColumn: emp.var.rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'cons.price.idx'
+		dataType: double
+		lineageTag: a1369b59-19e7-4e40-b1bd-3b186f085708
+		summarizeBy: sum
+		sourceColumn: cons.price.idx
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'cons.conf.idx'
+		dataType: double
+		lineageTag: c095c9c9-ff26-47a4-8f22-9b3fdd3e032d
+		summarizeBy: sum
+		sourceColumn: cons.conf.idx
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column euribor3m
+		dataType: double
+		lineageTag: 42da6627-3015-4f99-ad56-1d4316f13360
+		summarizeBy: sum
+		sourceColumn: euribor3m
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'nr.employed'
+		dataType: double
+		lineageTag: 3d0c9f5c-6990-422c-a66a-608f76f69d4d
+		summarizeBy: sum
+		sourceColumn: nr.employed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Term Deposit'
+		dataType: string
+		lineageTag: e20cbfc5-f8e3-4c21-ad02-e717da1abe79
+		summarizeBy: none
+		sourceColumn: Term Deposit
+
+		annotation SummarizationSetBy = Automatic
+
+	column Index
+		dataType: int64
+		formatString: 0
+		lineageTag: 01f3a3d7-f506-4a06-a9c0-527e1a4e04db
+		summarizeBy: sum
+		sourceColumn: Index
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'age (bins)' =
+			VAR __Count = 6
+			
+			VAR __Min = MIN('bank_customers_train'[age])
+			
+			VAR __Max = MAX('bank_customers_train'[age])
+			
+			VAR __Difference = (__Max - __Min)
+			
+			VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)
+			
+			VAR __BinNumber = INT(('bank_customers_train'[age] - __Min) / __Size)
+			
+			RETURN
+				IF(
+					ISBLANK('bank_customers_train'[age]),
+					BLANK(),
+					__Min + (MIN(__BinNumber, __Count - 1) * __Size)
+				)
+		lineageTag: 5b989811-5b30-425f-8add-9e3d380c9ef3
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "bank_customers_train"
+				          }
+				        },
+				        "Property": "age"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"b","Entity":"bank_customers_train"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"age"}}],"BinItem":{"Expression":{"Member":{"Expression":{"Discretize":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"age"}},"Count":6}},"Member":"Min"}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'campaign (bins)' =
+			VAR __Count = 20
+			
+			VAR __Min = MIN('bank_customers_train'[campaign])
+			
+			VAR __Max = MAX('bank_customers_train'[campaign])
+			
+			VAR __Difference = (__Max - __Min)
+			
+			VAR __Size = IF(__Difference > 0, __Difference / __Count, 1)
+			
+			VAR __BinNumber = INT(('bank_customers_train'[campaign] - __Min) / __Size)
+			
+			RETURN
+				IF(
+					ISBLANK('bank_customers_train'[campaign]),
+					BLANK(),
+					__Min + (MIN(__BinNumber, __Count - 1) * __Size)
+				)
+		lineageTag: 0debee83-f7aa-4131-9470-31397cc2da03
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "bank_customers_train"
+				          }
+				        },
+				        "Property": "campaign"
+				      }
+				    }
+				  ]
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"b","Entity":"bank_customers_train"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"campaign"}}],"BinItem":{"Expression":{"Member":{"Expression":{"Discretize":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"b"}},"Property":"campaign"}},"Count":20}},"Member":"Min"}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition bank_customers_train = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\tiffr\Downloads\PBILAB09-Marketing-20250312T221743Z-001\PBILAB09-Marketing\Bank Marketing Dataset\bank_customers_train.csv"),[Delimiter=",", Columns=21, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"age", Int64.Type}, {"job", type text}, {"marital", type text}, {"education", type text}, {"default", type text}, {"housing", type text}, {"loan", type text}, {"contact", type text}, {"month", type text}, {"day_of_week", type text}, {"duration", Int64.Type}, {"campaign", Int64.Type}, {"pdays", Int64.Type}, {"previous", Int64.Type}, {"poutcome", type text}, {"emp.var.rate", type number}, {"cons.price.idx", type number}, {"cons.conf.idx", type number}, {"euribor3m", type number}, {"nr.employed", type number}, {"y", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"y", "Deposit"}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Renamed Columns","","unknown",Replacer.ReplaceValue,{"job"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","","unknown",Replacer.ReplaceValue,{"marital"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","","Unknown",Replacer.ReplaceValue,{"education"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","","Unknown",Replacer.ReplaceValue,{"default"}),
+				    #"Replaced Value4" = Table.ReplaceValue(#"Replaced Value3","","Unknown",Replacer.ReplaceValue,{"housing"}),
+				    #"Replaced Value5" = Table.ReplaceValue(#"Replaced Value4","","Unknown",Replacer.ReplaceValue,{"loan"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Replaced Value5", each true),
+				    #"Added Index" = Table.AddIndexColumn(#"Filtered Rows", "Index", 1, 1, Int64.Type),
+				    #"Renamed Columns1" = Table.RenameColumns(#"Added Index",{{"Deposit", "Term Deposit"}, {"day_of_week", "Day"}}),
+				    #"Filtered Rows1" = Table.SelectRows(#"Renamed Columns1", each ([housing] <> "Unknown") and ([job] <> "unknown"))
+				in
+				    #"Filtered Rows1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

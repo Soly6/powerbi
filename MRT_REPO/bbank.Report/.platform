@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "bbank"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "abd76621-c178-a7cb-4828-5a5024ec3178"
+  }
+}
